@@ -688,8 +688,18 @@ footer a {
     padding-top: 35%;
 }
 
-
-
+.creativeprocess a{
+    color: rgb(219, 209, 150);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.creativeprocess {
+    padding: 2em;
+    padding-top: 0;
+}
 
 /**** gallery page ****/
 
@@ -1302,7 +1312,14 @@ iframe {
     }
 
    
+    /**** ux page ****/
 
+    .creativeprocess a{
+        font-size: 1.3em;
+    }
+    .creativeprocess {
+        padding-bottom: 4em;
+    }
  
 
 }
@@ -1844,6 +1861,10 @@ iframe {
         font-size: 3.5em;
     }
 
+    .creativeprocess a{
+        font-size: 1.8em;
+    }
+    
     /*** gallery page ***/
 
     .numbers {
